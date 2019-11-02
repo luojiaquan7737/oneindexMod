@@ -72,7 +72,7 @@ https://pan.2bmi.com/
 
 ## 需求：
 1、PHP空间，PHP 5.6+ 打开curl支持  
-2、Redis5.0.5+
+2、Redis5.0.5+以上
 3、onedrive 账号 (个人、企业版或教育版/工作或学校帐户)  
 4、oneindex 程序
 
