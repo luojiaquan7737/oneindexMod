@@ -32,7 +32,7 @@
 
 		<div class="mdui-textfield mdui-textfield-floating-label">
 		   <i class="mdui-icon material-icons">&#xe41a;</i>
-		   <?php if($redirect_uri == 'https://ju.tn/'):?>
+		   <?php if($redirect_uri == 'https://oneindex.github.io/'):?>
 		   <label class="mdui-textfield-label">由于你的网站不是<b>http://localhost/</b>。将通过ju.tn进行中转</label>
 		   <?php endif;?>
 		   <label class="mdui-textfield-label"><?php echo $redirect_uri;?></label>
