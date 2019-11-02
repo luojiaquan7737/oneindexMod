@@ -74,12 +74,43 @@ http://pan.2bmi.com/
 ## 需求：
 1、PHP空间，PHP 5.6+ 打开curl支持  
 2、Redis5.0.5+
-2、onedrive 账号 (个人、企业版或教育版/工作或学校帐户)  
-3、oneindex 程序
+3、onedrive 账号 (个人、企业版或教育版/工作或学校帐户)  
+4、oneindex 程序
 
 ## 安装：
-<img width="658" alt="image" src="https://raw.githubusercontent.com/donwa/oneindex/files/images/install.gif">  
+1. **我这里以宝塔安装好Nginx、PHP7.0以及域名one.2bmi.com作为演示**
+2. **安装Redis**
+![194154f0a8f66f86f.png](https://www.z4a.net/images/2019/11/02/194154f0a8f66f86f.png)
+3. **在安装期间，来新建一个网站，注意php版本是7.0，将域名解析到服务器这边**
+![29e0464082c4524f8.png](https://www.z4a.net/images/2019/11/02/29e0464082c4524f8.png)
+4. **在本项目复制zip的下载链接**
+[![3f8d0cdaf744cd8f6.png](https://www.z4a.net/images/2019/11/02/3f8d0cdaf744cd8f6.png)](https://www.z4a.net/image/UpoCcw)
+5. **打开网站的根目录并删除默认的文件，因域名不同，目录也不同**
+![466b44c2178294893.png](https://www.z4a.net/images/2019/11/02/466b44c2178294893.png)
+6. **下载好的压缩包解压并将所有文件剪切到根目录，删除压缩包以及解压目录**
+![5bfcd759645b063d2.png](https://www.z4a.net/images/2019/11/02/5bfcd759645b063d2.png)
+7. **确认Redis安装好，之后打开PHP7.0管理安装Redis扩展**
+![6.png](https://www.z4a.net/images/2019/11/02/6.png)
+8. **在安装Redis扩展期间，去开启curl 可能是878行如果找不到，查找关键字“php_curl.dll”**
+![7.png](https://www.z4a.net/images/2019/11/02/7.png)
+9. **修改完成之后点击保存，确认Redis扩展安装完成，在PHP7.0管理的“服务”点击重载服务
+10. **至此就可以浏览器打开绑定的域名访问了！**
+![8.png](https://www.z4a.net/images/2019/11/02/8.png)
+11. **点击进去获取ID以及机密，如果以前有操作过可以前往 https://apps.dev.microsoft.com 删除ID**
+![9.png](https://www.z4a.net/images/2019/11/02/9.png)
+12. **复制机密到网站填写，点击返回下拉页面就可以看到ID，当然你可以直接快捷键查找**
+![11.png](https://www.z4a.net/images/2019/11/02/11.png)
+![12.png](https://www.z4a.net/images/2019/11/02/12.png)
+13. **填写完成之后，点击下一步**
+![13.png](https://www.z4a.net/images/2019/11/02/13.png)
+14. **点击“绑定账号”便会跳转到微软登录账号。按提示操作！**
+![14.png](https://www.z4a.net/images/2019/11/02/14.png)
+![15.png](https://www.z4a.net/images/2019/11/02/15.png)
+15. **最后就是绑定完成，点击访问网站**
+![16.png](https://www.z4a.net/images/2019/11/02/16.png)
+![17.png](https://www.z4a.net/images/2019/11/02/17.png)
 
+**后台管理默认是：域名/?/admin**
 
 ## docker 安装运行：
 
