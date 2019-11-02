@@ -71,10 +71,10 @@ https://pan.2bmi.com/
 18-06-01: 图床功能   
 
 ## 需求：
-1、PHP空间，PHP 5.6+ 打开curl支持  
-2、Redis5.0.5+以上
-3、onedrive 账号 (个人、企业版或教育版/工作或学校帐户)  
-4、oneindex 程序
+1. PHP空间，PHP 5.6+ 打开curl支持  
+2. Redis5.0.5+以上
+3. onedrive 账号 (个人、企业版或教育版/工作或学校帐户)  
+4. oneindex 程序
 
 ## 安装：
 1. **我这里以宝塔安装好Nginx、PHP7.0以及域名one.2bmi.com作为演示**
