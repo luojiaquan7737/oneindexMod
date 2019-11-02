@@ -92,7 +92,7 @@ https://pan.2bmi.com/
 ![6.png](https://www.z4a.net/images/2019/11/02/6.png)
 8. **在安装Redis扩展期间，去开启curl 可能是878行如果找不到，查找关键字“php_curl.dll”**
 ![7.png](https://www.z4a.net/images/2019/11/02/7.png)
-9. **修改完成之后点击保存，确认Redis扩展安装完成，在PHP7.0管理的“服务”点击重载服务
+9. **修改完成之后点击保存，确认Redis扩展安装完成，在PHP7.0管理的“服务”点击重载服务**
 10. **至此就可以浏览器打开绑定的域名访问了！**
 ![8.png](https://www.z4a.net/images/2019/11/02/8.png)
 11. **点击进去获取ID以及机密，如果以前有操作过可以前往 https://apps.dev.microsoft.com 删除ID**
