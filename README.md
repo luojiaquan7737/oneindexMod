@@ -6,9 +6,11 @@ Onedrive Directory Index
  - ~~注意安装页面的redirecturl写自己的地址，必须使用https协议，例如https://pan.shax.vip/，类似请照着这个写就好了，同时在graph页面增加一个这个回调地址就行！~~ **已经修正可用的跳转网址**
 
 ## 预览地址
-http://pan.2bmi.com/
+https://pan.2bmi.com/
 
 ## 更新信息
+- 2019-11-02
+  - 补充说明文档
 - 2019-09-09
   - 修正跳转网址
   - 补充 cache文件夹
@@ -35,9 +37,6 @@ http://pan.2bmi.com/
 不用服务器空间，不走服务器流量，  
 
 直接列onedrive目录，文件直链下载。  
-
-## demo
-[https://xn.tn](https://xn.tn)  
 
 ## change log:  
 18-03-29: 更新直链获取机制、缓存机制，避免频繁访问的token失效  
