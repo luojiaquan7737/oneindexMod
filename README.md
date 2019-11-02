@@ -3,12 +3,15 @@ Onedrive Directory Index
 
 ## Attention
  - 注意不管是之前的魔改还是非魔改版本，请拉取本程序重新安装下，因为token缓存换到redis里了！
- - 注意安装页面的redirecturl写自己的地址，必须使用https协议，例如https://pan.shax.vip/，类似请照着这个写就好了，同时在graph页面增加一个这个回调地址就行！
+ - ~~注意安装页面的redirecturl写自己的地址，必须使用https协议，例如https://pan.shax.vip/，类似请照着这个写就好了，同时在graph页面增加一个这个回调地址就行！~~ 已经修正可用的跳转网址
 
 ## 预览地址
-http://pan.shax.vip
+http://pan.2bmi.com/
 
 ## 更新信息
+- 2019-09-09
+  - 修正跳转网址
+  - 补充 cache文件夹
 - 2019-01-08
   - 修复部分用户出现安装成功后无内容的bug
   - 优雅token缓存周期，无需定时任务，智能获取，优化数据缓存
@@ -70,8 +73,9 @@ http://pan.shax.vip
 
 ## 需求：
 1、PHP空间，PHP 5.6+ 打开curl支持  
+2、Redis5.0.5+
 2、onedrive 账号 (个人、企业版或教育版/工作或学校帐户)  
-3、oneindex 程序   
+3、oneindex 程序
 
 ## 安装：
 <img width="658" alt="image" src="https://raw.githubusercontent.com/donwa/oneindex/files/images/install.gif">  
