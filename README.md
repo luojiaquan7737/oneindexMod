@@ -3,7 +3,7 @@ Onedrive Directory Index
 
 ## Attention
  - 注意不管是之前的魔改还是非魔改版本，请拉取本程序重新安装下，因为token缓存换到redis里了！
- - ~~注意安装页面的redirecturl写自己的地址，必须使用https协议，例如https://pan.shax.vip/，类似请照着这个写就好了，同时在graph页面增加一个这个回调地址就行！~~ 已经修正可用的跳转网址
+ - ~~注意安装页面的redirecturl写自己的地址，必须使用https协议，例如https://pan.shax.vip/，类似请照着这个写就好了，同时在graph页面增加一个这个回调地址就行！~~ **已经修正可用的跳转网址**
 
 ## 预览地址
 http://pan.2bmi.com/
