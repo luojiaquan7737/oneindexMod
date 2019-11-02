@@ -115,6 +115,21 @@ https://pan.2bmi.com/
 这里举例：https://域名前缀-my.sharepoint.cn 这是世纪互联运营的，https://域名前缀-my.sharepoint.com 这是微软运营的。
 当然你不知道的话，可以去前往 https://www.office.com 登录后点击“OneDrive”，看地址栏显示即可！**
 
+### 补充伪静态开启
+**伪静态开启之后地址栏不会出现“？” 先将oneindex后台的伪静态开启，之后在网站管理的伪静态输入规则**
+```
+if (!-f $request_filename){
+    set $rule_0 1$rule_0;
+}
+if (!-d $request_filename){
+    set $rule_0 2$rule_0;
+}
+if ($rule_0 = "21"){
+    rewrite ^/(.*) /?/$1 last;
+}
+```
+![18.png](https://www.z4a.net/images/2019/11/02/18.png)
+
 ## docker 安装运行：
 
 从docker仓库获取镜像：
