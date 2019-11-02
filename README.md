@@ -109,7 +109,11 @@ https://pan.2bmi.com/
 ![16.png](https://www.z4a.net/images/2019/11/02/16.png)
 ![17.png](https://www.z4a.net/images/2019/11/02/17.png)
 
-**后台管理默认是：域名/?/admin**
+**后台管理地址默认是：域名/?/admin**
+**后台的文件管理地址默认是：https://onedrive.live.com/ 但是这个域名不能正常访问，所以需要自行修改自己onedrive地址
+文件在网站根目录“/view/admin”下的layout.php  已注释的
+这里举例：https://域名前缀-my.sharepoint.cn 这是世纪互联运营的，https://域名前缀-my.sharepoint.com 这是微软运营的。
+当然你不知道的话，可以去前往 https://www.office.com 登录后点击“OneDrive”，看地址栏显示即可！**
 
 ## docker 安装运行：
 
